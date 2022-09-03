@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/*//////////////////   MI CSS   /////////////////*/
+
+#selectOrderBy {
+  margin-left: 5em;
+  height: 90%;
+  display: flex;
+  align-self: center;
+}
