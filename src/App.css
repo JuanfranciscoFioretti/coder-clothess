@@ -41,9 +41,27 @@
 
 /*//////////////////   MI CSS   /////////////////*/
 
+
+
+/* NAV CSS ..*/
+
 #selectOrderBy {
-  margin-left: 5em;
+  margin-left: 20em;
   height: 90%;
   display: flex;
   align-self: center;
 }
+
+#NavUl {
+  margin-left: 4em;
+  border-left-style: solid;
+  border-left-color: #a1a3a444;
+  padding-left: 1em;
+}
+
+#HomeNav {
+  margin-right: .5em;
+}
+
+
+/* .. NAV CSS*/
