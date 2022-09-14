@@ -1,57 +1,31 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import CartWidget from './CartWidget';
 
 const NavBar = () => {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Cookit</a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                    </button>
+                    <a className="navbar-brand" id='cookIt' href="#">Cookit</a>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0" id='NavUl'>
                             <li className="nav-item">
-                            <a className="nav-link active" id='HomeNav' aria-current="page" href="#">Home</a>
+                            <a className="nav-link active navLi" id='HomeNav' aria-current="page" href="#">Home</a>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item navLi">
                                 <a className="nav-link active" href="#">Cooking</a>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item navLi">
                                 <a className="nav-link active" href="#">Utensils</a>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item navLi">
                                 <a className="nav-link active" href="#">Holders</a>
                             </li>
-                            <li className="nav-item">
-                                {/* <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><hr className="dropdown-divider"/></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
-                            </ul> */}
-
-                            </li>
-                                <select className="form-select form-select-sm" id='selectOrderBy' aria-label=".form-select-sm example">
-                                    <option selected>Order by</option>
-                                    <option value="1">Price: low to high</option>
-                                    <option value="2">Price: high to low</option>
-                                    <option value="3">Most wanted</option>
-                                </select>
-
-
-                            {/* <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                            </li> */}
                         </ul>
-                        <form className="d-flex">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>   
-                            <button className="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+                        <div id='divCartWidgetComp'>
+                            <CartWidget/>
+                        </div>
                     </div>
                 </div>
             </nav>
