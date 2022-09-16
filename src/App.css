@@ -1,6 +1,4 @@
 
-/*//////////////////   MI CSS   /////////////////*/
-
 
 /* NAV CSS ..*/
 
@@ -35,8 +33,6 @@
   margin-right: 1.1em;
 }
 
-
-
 /* .. NAV CSS*/
 
 
@@ -47,7 +43,7 @@
   justify-content: center;
   margin-top: 2em;
   padding-bottom: 2em;
-  border-bottom: 3px solid rgba(193, 209, 203, 0.685);
+  border-bottom: 3px solid rgba(193, 199, 209, 0.685);
 }
 
 #selectOrderBy {
@@ -55,4 +51,72 @@
   margin-right: 4em;
 }
 
+#btnSearchHover {
+  border-color: rgb(108, 108, 193);
+  color: rgb(108, 108, 193);
+}
+
+#btnSearchHover:hover {
+  background-color: rgb(108, 108, 193);
+  color: white;
+}
+
 /* .. HEADER NAV CSS*/
+
+
+
+
+/* ITEM COUNT CSS ..*/
+
+#divItemCount {
+  margin-left: 1em;
+  border-width: 3px;
+  border-color: rgba(161, 177, 218, 0.511);
+  border-style: solid;
+  padding: 1.7em;
+  padding-left: 3.6%;
+  border-radius: .866em;
+}
+
+#divHandleQuantity {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.1em;
+}
+
+
+#divQuantity {
+  padding-left: 1.4em;
+  padding-right: 1.4em;
+  margin-right: .3em;
+  margin-left: .3em;
+  padding-top: .455em;
+  background-color: rgba(170, 197, 229, 0.267);
+  border-radius: .4em;
+  border-left: 1.7px solid rgba(86, 100, 132, 0.372);
+  border-right: 1.7px solid rgba(86, 100, 132, 0.372);
+}
+
+.quantityButtons {
+  display: flex;
+}
+
+.addToCart {
+  display: flex;
+  margin-left: 8.3%;
+}
+
+#btnAddToCart {
+  border-color: rgb(108, 108, 193);
+  color: rgb(108, 108, 193);
+  
+}
+
+#btnAddToCart:hover {
+  background-color: rgb(108, 108, 193);
+  color: white;
+}
+
+/* .. ITEM COUNT CSS*/
+
+

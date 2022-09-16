@@ -7,12 +7,6 @@ const ItemListContainer = () => {
                 <div className='divCatalogoProvisorio'>
                     <h4>Aqui ira el stock</h4>
                 </div>
-                <div className='divCatalogoProvisorio'>
-                    <h4>Aqui ira el stock</h4>
-                </div>
-                <div className='divCatalogoProvisorio'>
-                    <h4>Aqui ira el stock</h4>
-                </div>
             </div>
         </>
     )
