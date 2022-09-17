@@ -36,6 +36,7 @@
 /* .. NAV CSS*/
 
 
+
 /* HEADER NAV CSS ..*/
 
 #divHeaderBar {
@@ -57,7 +58,7 @@
 }
 
 #btnSearchHover:hover {
-  background-color: rgb(108, 108, 193);
+  background-color: rgb(105, 105, 204);
   color: white;
 }
 
@@ -91,10 +92,10 @@
   margin-right: .3em;
   margin-left: .3em;
   padding-top: .455em;
-  background-color: rgba(170, 197, 229, 0.267);
+  background-color: rgba(159, 198, 247, 0.267);
   border-radius: .4em;
-  border-left: 1.7px solid rgba(86, 100, 132, 0.372);
-  border-right: 1.7px solid rgba(86, 100, 132, 0.372);
+  border-left: 1.7px solid rgb(225, 232, 247);
+  border-right: 1.7px solid rgba(229, 236, 252, 0.909);
 }
 
 .quantityButtons {
@@ -113,10 +114,73 @@
 }
 
 #btnAddToCart:hover {
-  background-color: rgb(108, 108, 193);
+  background-color: rgb(105, 105, 204);
   color: white;
 }
 
 /* .. ITEM COUNT CSS*/
 
 
+
+
+/* ITEM CARD CSS ..*/
+
+.divItemCard {
+  border-width: 3px;
+  border-color: rgba(161, 177, 218, 0.511);
+  border-style: solid;
+  border-radius: 1em;
+  padding-left: .4em;
+  padding-right: .4em;
+  margin-left: 3em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#divItemImg {
+  margin-top: -.1%;
+}
+
+.ItemImg {
+  height: 240px;
+  border-top-left-radius: 4em;
+  border-top-right-radius: 4em;
+  border-bottom-color: 1px solid black;
+}
+
+.divItemNamePrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: .25em;
+  padding-top: .8em;
+  border-top: 3px solid rgba(161, 177, 218, 0.283);
+  width: 95%;
+  margin-left: 3%;
+}
+
+.divItemDescription {
+  width: 95%;
+  margin-left: 3%;
+}
+
+.divItemBuyNow {
+  margin-top: .89em;
+  display: flex;
+  justify-content: center;
+}
+
+.btnBuyNow {
+  width: 100%;
+  border-radius: .8em !important;
+  margin-bottom: .25em;
+  color: rgb(105, 105, 204) !important;
+  border-color: rgb(105, 105, 204) !important;
+}
+
+.btnBuyNow:hover {
+  background-color: rgb(105, 105, 204) !important;
+  color: white !important;
+}
+
+/* .. ITEM CARD CSS*/
