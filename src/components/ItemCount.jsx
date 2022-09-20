@@ -1,26 +1,27 @@
 import React from 'react'
 import { useState } from 'react'
 
-const ItemCount = (props) => {
+const ItemCount = ({stock, onAdd}) => {
 
     const [quantity, setQuantity] = useState(0);
 
     // AGREGAR PRODUCTOS AL CARRITO
     const moreQuantity = () => {
-        if (quantity < props.stock) {
+        if (quantity < stock) {
             const addQuantity = quantity + 1
             setQuantity(addQuantity)
+            console.log(quantity)
         } else {
             alert('You surpased the limit stock')
         }
-        console.log(quantity)
     }
 
     // ELIMINAR PRODUCTOS DEL CARRITO
     const lessQuantity = () => {
-        if (((quantity < props.stock) || (quantity >= 2)) && (quantity != 0)) {
+        if (((quantity < stock) || (quantity >= 2)) && (quantity != 0)) {
             const removeQuantity = quantity - 1
             setQuantity(removeQuantity)
+            console.log(quantity)
         } else {
             alert('Can´t take more products off the cart')
         }

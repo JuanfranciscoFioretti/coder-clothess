@@ -5,7 +5,7 @@ const HeaderBar = () => {
         <>
             <div id='divHeaderBar'>
                 <select className="form-select form-select-sm" id='selectOrderBy' aria-label=".form-select-sm example">
-                    <option selected>Order by</option>
+                    <option value>Order by</option>
                     <option value="1">Price: low to high</option>
                     <option value="2">Price: high to low</option>
                     <option value="3">Most wanted</option>

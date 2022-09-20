@@ -125,6 +125,13 @@
 
 /* ITEM CARD CSS ..*/
 
+.divItemList {
+  width: 93vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px !important;
+}
+
 .divItemCard {
   border-width: 3px;
   border-color: rgba(161, 177, 218, 0.511);
@@ -142,7 +149,8 @@
 }
 
 .ItemImg {
-  height: 240px;
+  height: 250px;
+  width: 80%;
   border-top-left-radius: 4em;
   border-top-right-radius: 4em;
   border-bottom-color: 1px solid black;
