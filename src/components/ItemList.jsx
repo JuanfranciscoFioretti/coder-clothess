@@ -7,16 +7,11 @@ import { getItems, items } from './Products'
 
 const ItemList = () => {
 
-    const [ data, setData ] = useState();
-
     return (
         <>
             <div className="row divItemList">
                 {
                     items.map((item) => {
-                        console.log(item)
-                        // setData(item)
-                        // <Item/>
                         return <Item
                             stock={item.stock}
                             id={item.id}
@@ -24,7 +19,7 @@ const ItemList = () => {
                             price={item.price}
                             description={item.description}
                             image={item.image}
-                            />
+                        />
                     })
                 }
             </div>

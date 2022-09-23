@@ -90,7 +90,7 @@ export const items =
         return new Promise ((resolve, reject) => {
             setTimeout(() => {
                 resolve(items);
-            }, 1500);
+            }, 2000);
         });
     }
 

@@ -27,9 +27,10 @@ const ItemCount = ({stock, onAdd}) => {
         }
     }
 
-    const addToCart = () => {
-        alert('You added ' + quantity + ' product to the cart.')
-    }
+    // const addToCart = () => {
+    //     alert('You added ' + quantity + ' product to the cart.')
+    // }
+
     return (
         <>
             <div className='col col-md-2 col-sm-3' id='divItemCount'>
@@ -39,7 +40,7 @@ const ItemCount = ({stock, onAdd}) => {
                     <button className='btn btn-outline-secondary quantityButtons' onClick={moreQuantity}>+</button>
                 </div>
                 <div className="addToCart">
-                    <button className='btn btn-outline-primary' id='btnAddToCart' onClick={addToCart}>Add to cart</button>
+                    <button className='btn btn-outline-primary' id='btnAddToCart' onClick={onAdd}>Add to cart</button>
                 </div>
             </div>
         </>

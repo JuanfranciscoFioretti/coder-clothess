@@ -5,13 +5,20 @@ import ItemListContainer from './ItemListContainer'
 import ItemCount from '../components/ItemCount'
 
 const AppContainer = () => {
+
+    // const addToCart = () => {
+    //     alert('You added ' + quantity + ' product to the cart.')
+    // }
+
     return (
         <>
             <div id='divAppContainer'>
                 <NavBar/>
                 <HeaderBar/>
                 <ItemListContainer/>
-                <ItemCount stock={10}/>
+                <ItemCount 
+                    // onAdd={addToCart}
+                    stock={10}/>
             </div>
         </>
     )

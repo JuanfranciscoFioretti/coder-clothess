@@ -1,7 +1,9 @@
 import React from 'react'
 
 const Item = (props) => {
+
     let { title, price, image, description } = props;
+    
     return (
         <>
             <div className="col col-md-2 divItemCard">
