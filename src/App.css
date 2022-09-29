@@ -1,4 +1,6 @@
-
+body {
+  overflow-x: hidden
+}
 
 /* NAV CSS ..*/
 
@@ -72,8 +74,8 @@
 #divItemCount {
   margin-left: 1em;
   border-width: 3px;
-  border-color: rgba(161, 177, 218, 0.511);
-  border-style: solid;
+  /* border-color: rgba(161, 177, 218, 0.511); */
+  /* border-style: solid; */
   padding: 1.7em;
   padding-left: 3.6%;
   border-radius: .866em;
@@ -110,7 +112,7 @@
 #btnAddToCart {
   border-color: rgb(108, 108, 193);
   color: rgb(108, 108, 193);
-  
+  /* width: 100px !important; */
 }
 
 #btnAddToCart:hover {
@@ -149,7 +151,7 @@
 }
 
 .ItemImg {
-  height: 250px;
+  height: 225px;
   width: 80%;
   border-top-left-radius: 4em;
   border-top-right-radius: 4em;
@@ -165,6 +167,11 @@
   border-top: 3px solid rgba(161, 177, 218, 0.283);
   width: 95%;
   margin-left: 3%;
+}
+
+.h5ItemPrice {
+  margin-left: 59px;
+  margin-top: 1.5px;
 }
 
 .divItemDescription {
@@ -192,3 +199,69 @@
 }
 
 /* .. ITEM CARD CSS*/
+
+
+
+/* ITEM DETAIL CSS ..*/
+
+.divItemDetail {
+  margin-top: 60px !important;
+  margin-bottom: 60px !important;
+  margin-left: 7px !important;
+}
+
+.divIMGSDetail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .divDetailImg {
+  margin-left: 13px;
+} */
+
+.imgDetailBig {
+  width: 400px;
+  height: 400px;
+}
+
+.divImgsSmall {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.imgSmallDetail {
+  width: 100px;
+  height: 100px;
+}
+
+.divProdDetails {
+  margin-left: 6em;
+}
+
+.divItemCountDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1100px;
+}
+
+.hDetail {
+  margin-bottom: 12px;
+}
+
+.divBuyNowDetail {
+  display: flex;
+  justify-content: center;
+}
+
+/* .btnBuyNowDetail {
+} */
+
+/* .itemCountDetail {
+  height: 80%;
+} */
+
+/* .. ITEM DETAIL CSS*/

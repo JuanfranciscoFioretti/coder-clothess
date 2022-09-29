@@ -20,7 +20,7 @@ export const items =
         "title": "Juego de cubiertos",
         "price": 23,
         "description": "This product is the best in the market because there are no other headphones like this",
-        "image": "https://ae01.alicdn.com/kf/HTB1njnIXEWF3KVjSZPhq6xclXXaT/Juego-de-cubiertos-occidentales-de-acero-inoxidable-cuchara-tenedor-palillos-para-cocina-accesorios-de-fondo-para.jpg",
+        "image": "https://img.freepik.com/fotos-premium/juego-cubiertos-tenedor-cuchillo-cuchara-sobre-fondo-blanco-manteniendo-ruta_610575-559.jpg?w=2000",
     },
     {
         "id": "76",
@@ -59,7 +59,7 @@ export const items =
     },
     {
         "id": "34",
-        "title": "Triturador",
+        "title": "Triturador verduras",
         "price": 23,
         "description": "This product is the best in the market because there are no other headphones like this",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW1uxV_ILtK51njosb3kRyt3hXmj0PmTbPZQ&usqp=CAU",

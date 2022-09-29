@@ -12,8 +12,12 @@ const Item = (props) => {
                         <img className='ItemImg' src={image} alt="" />
                     </div>
                     <div className="divItemNamePrice">
-                        <h5>{title}</h5>
-                        <h5>{price}</h5>
+                        <div className="col">
+                            <h5>{title}</h5>
+                        </div>
+                        <div className="col">
+                            <h5 className='h5ItemPrice'>${price}</h5>
+                        </div>
                     </div>
                     <div className="divItemDescription">
                         <h6>{description}</h6>

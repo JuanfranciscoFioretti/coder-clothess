@@ -1,15 +1,12 @@
 import React from 'react'
-import { useState } from 'react'
 import Item from './Item'
-import { getItems, items } from './Products'
-// import { products } from './Products'
+import {  items } from './Products'
 
-
-const ItemList = () => {
-
+const ItemList = ({data = []}) => {
     return (
         <>
             <div className="row divItemList">
+                
                 {
                     items.map((item) => {
                         return <Item
